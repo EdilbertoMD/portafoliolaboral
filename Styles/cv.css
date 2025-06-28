@@ -1,0 +1,83 @@
+body {
+  background: #f8f9fa;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #212529;
+}
+
+h2, h3, h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0d6efd;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+.profile-header {
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 12px rgb(13 110 253 / 0.4);
+  min-height: 180px;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  border-left: 4px solid #0d6efd;
+  padding-left: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.sidebar {
+  background: #e7f1ff;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.btn-social {
+  min-width: 120px;
+}
+
+/* Timeline styles */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 12px;
+  width: 4px;
+  height: 100%;
+  background-color: #0d6efd;
+  border-radius: 2px;
+}
+
+.timeline-event {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-left: 2.5rem;
+}
+
+.timeline-event::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 20px;
+  height: 20px;
+  background-color: #0d6efd;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 0 8px rgb(13 110 253 / 0.6);
+}
