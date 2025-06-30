@@ -7,7 +7,7 @@ body {
 
 h2, h3, h5 {
   font-family: 'Montserrat', sans-serif;
-  color: #0d6efd;
+  color: #00B7FF;
 }
 
 .profile-img {
@@ -20,7 +20,7 @@ h2, h3, h5 {
 }
 
 .profile-header {
-  background-color: #0d6efd;
+  background-color: #00B7FF;
   color: white;
   border-radius: 0.5rem;
   padding: 1.5rem 2rem;
@@ -30,7 +30,7 @@ h2, h3, h5 {
 }
 
 .section-title {
-  border-left: 4px solid #0d6efd;
+  border-left: 4px solid #00B7FF;
   padding-left: 0.5rem;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -76,7 +76,7 @@ h2, h3, h5 {
   top: 0.6rem;
   width: 20px;
   height: 20px;
-  background-color: #0d6efd;
+  background-color: #a2180e;
   border-radius: 50%;
   border: 4px solid white;
   box-shadow: 0 0 8px rgb(13 110 253 / 0.6);

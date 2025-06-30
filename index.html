@@ -20,11 +20,9 @@
 <body>
   <main class="container py-5 animate__animated animate__fadeIn">
     <!-- Encabezado estilo perfil Facebook -->
-    <header class="profile-header d-flex align-items-center" style="background-image: url('Images/page-turner.svg'); background-size: cover; height: 350px;">
-      <div class="me-4">
-        <img src="Images/avatarjpg.jpg" alt="Foto de perfil" class="profile-img" />
-      </div>
-      <div>
+    <header class="profile-header d-flex flex-column flex-md-row align-items-center bg-cover" style="background-image: url('Images/large-triangles.svg'); padding: 2rem; margin-top: -20px;">
+      <img src="Images/avatarjpg.jpg" alt="Foto de perfil" class="profile-img me-md-3 mb-3 mb-md-0" />
+      <div class="text-start">
         <h1 class="display-4 fw-bold mb-1">Edilberto Martínez Díaz</h1>
         <p class="lead mb-1">Ingeniero en Sistemas Computacionales</p>
         <p><i class="bi bi-geo-alt-fill me-2"></i> Minas 24026, San Francisco de Campeche, Campeche</p>
@@ -35,113 +33,112 @@
 
     <div class="row g-4">
       <!-- Sidebar -->
-<aside class="col-md-4 sidebar animate__animated animate__fadeInLeft">
-  <div class="mb-4">
-    <h3 class="section-title">Resumen Profesional</h3>
-    <p style="text-align: justify">
-      Ingeniero en Sistemas Computacionales
-
-      en posesión del título universitario por la
-      Universidad Autónoma de Campeche y
-      experiencia laboral en Gobierno del
-      Estado de Campeche, Servicios de
-      Tecnología Apolo y Artech development
-      house, desarrollando software web,
-      escritorio y móvil, con tecnologías como
-      .net, .net core, entity framework core,
-      xamarin forms, javascript, c#, ajax, etc.
-      <br>
-      <br>
-      Con excelentes habilidades para trabajar
-      en equipo y un sólido conocimiento de
-      las herramientas de desarrollo de
-      software (10 años de experiencia).
-      <br>
-      <br>
-      Capaz de aprender fácilmente y con afán
-      de superación. Aprendizaje autodidacta
-      de nuevas tecnologías como Docker,
-      Angular, Blazor y metodologías para
-      mejorar como desarrollador backend y
-      frontend.
-    </p>
-  </div>
-<div class="mb-4">
-  <h3 class="section-title">Redes Sociales</h3>
-  <div class="d-flex justify-content-center">
-    <a href="https://api.whatsapp.com/send?phone=+529812098533" class="btn btn-whatsapp btn-circle btn-lg mx-3 animate__animated animate__pulse" style="background-color: #34A853; border-radius: 50%; width: 50px; height: 50px; padding: 0; display: flex; align-items: center; justify-content: center;" onmouseover="this.classList.add('animate__pulse');" onmouseout="this.classList.remove('animate__pulse');">
-      <i class="bi bi-whatsapp text-white" style="font-size: 24px;"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/edilberto-mart%C3%ADnez-d%C3%ADaz-4a4952195/" class="btn btn-linkedin btn-circle btn-lg mx-3 animate__animated animate__pulse" style="background-color: #2A66CE; border-radius: 50%; width: 50px; height: 50px; padding: 0; display: flex; align-items: center; justify-content: center;" onmouseover="this.classList.add('animate__pulse');" onmouseout="this.classList.remove('animate__pulse');">
-      <i class="bi bi-linkedin text-white" style="font-size: 24px;"></i>
-    </a>
-    <a href="mailto:edilberto_diaz14@hotmail.com" class="btn btn-email btn-circle btn-lg mx-3 animate__animated animate__pulse" style="background-color: #FFC107; border-radius: 50%; width: 50px; height: 50px; padding: 0; display: flex; align-items: center; justify-content: center;" onmouseover="this.classList.add('animate__pulse');" onmouseout="this.classList.remove('animate__pulse');">
-      <i class="bi bi-envelope-fill text-white" style="font-size: 24px;"></i>
-    </a>
-  </div>
-</div>
-</aside>
+    <aside class="col-md-4 sidebar animate__animated animate__fadeInLeft" style="background: #ecf5f9;">
+      <div class="mb-4">
+        <h3 class="section-title">Resumen Profesional</h3>
+        <p style="text-align: justify; background: linear-gradient(to right, #f7fafc, #e5e9ef); padding: 15px; border-radius: 10px;">
+          <strong>Ingeniero en Sistemas Computacionales</strong> en posesión del título universitario por la Universidad Autónoma de Campeche y experiencia laboral en Gobierno del Estado de Campeche, Servicios de Tecnología Apolo y Artech Development House (Market Share IT), desarrollando software web, escritorio y móvil, con tecnologías como .net, .net core, entity framework core, xamarin, javascript, c#, ajax, sql, etc.
+          <br><br>
+          <em>Con excelentes habilidades para trabajar en equipo y un sólido conocimiento de las herramientas de desarrollo de software (10 años de experiencia).</em>
+          <br><br>
+          Capaz de aprender fácilmente y con afán de superación. Aprendizaje autodidacta de nuevas tecnologías como Docker, Angular, Blazor y metodologías para mejorar como desarrollador backend y frontend.
+        </p>
+      </div>
+      <div class="mb-4">
+        <h3 class="section-title">Redes Sociales</h3>
+        <div class="d-flex justify-content-center">
+          <a href="https://wa.me/5215512345678?text=Hola,%20Edilberto%20Martínez%20Díaz" target="_blank" class="btn btn-whatsapp btn-circle mx-3 animate__animated animate__pulse" style="background: #25D366; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
+            <i class="bi bi-whatsapp text-white" style="font-size: 28px;"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/edilberto-mart%C3%ADnez-d%C3%ADaz-778351171/" target="_blank" class="btn btn-linkedin btn-circle mx-3 animate__animated animate__pulse" style="background: #0077B5; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
+            <i class="bi bi-linkedin text-white" style="font-size: 28px;"></i>
+          </a>
+          <a href="mailto:edilberto_diaz14@hotmail.com" class="btn btn-email btn-circle mx-3 animate__animated animate__pulse" style="background: #D44638; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
+            <i class="bi bi-envelope-fill text-white" style="font-size: 28px;"></i>
+          </a>
+        </div>
+      </div>
+    </aside>
 
       <!-- Main Content -->
       <section class="col-md-8 animate__animated animate__fadeInRight">
-    
-
         <div class="mb-5">
-          <h3 class="section-title">Experiencia</h3>
-          <div class="timeline">
-            <div class="timeline-event">
-              <h5>Desarrollador Backend · Artech Development House (Market Share IT)</h5>
-              <small class="text-muted">Junio 2022 – Actual</small>
-              <ul>
-                <li>Desarrollo de microservicios .NET Core y APIs REST</li>
-                <li>Pruebas unitarias con Xunit</li>
-                <li>Manejo de versiones con GitHub</li>
-                <li>Uso de herramientas como Swagger, Postman, SQL Server, Jira</li>
-              </ul>
+          <h3 class="section-title">Experiencia Laboral</h3>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                  <h5 class="card-title">Desarrollador Backend · Artech Development House (Market Share IT)</h5>
+                  <small class="text-muted">Junio 2022 – Actual</small>
+                  <p class="card-text">Desarrollo de microservicios .NET Core y APIs REST. Pruebas unitarias con Xunit. Manejo de versiones con GitHub. Uso de herramientas como Swagger, Postman, SQL Server, Jira.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="badge bg-primary">.NET Core</span>
+                    <span class="badge bg-secondary">APIs REST</span>
+                    <span class="badge bg-success">GitHub</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="timeline-event">
-              <h5>Técnico en Programación · Servicios de Tecnología Apolo</h5>
-              <small class="text-muted">Mayo 2024 – Abril 2025</small>
-              <ul>
-                <li>Desarrollo de aplicaciones con Windows Forms y C#</li>
-                <li>Web scraping con Selenium y HTML Agility Pack</li>
-                <li>Actualizaciones con Blazor</li>
-                <li>Uso de ADO.Net y procedimientos almacenados en SQL Server</li>
-              </ul>
+            <div class="col">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                  <h5 class="card-title">Técnico en Programación · Servicios de Tecnología Apolo</h5>
+                  <small class="text-muted">Mayo 2024 – Abril 2025</small>
+                  <p class="card-text">Desarrollo de aplicaciones con Windows Forms y C#. Web scraping con Selenium y HTML Agility Pack. Actualizaciones con Blazor. Uso de ADO.Net y procedimientos almacenados en SQL Server.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="badge bg-info">Windows Forms</span>
+                    <span class="badge bg-warning text-dark">Selenium</span>
+                    <span class="badge bg-danger">Blazor</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="timeline-event">
-              <h5>Administrador de TI · Gobierno del Estado de Campeche</h5>
-              <small class="text-muted">Junio 2013 – Junio 2022</small>
-              <ul>
-                <li>Desarrollo de interfaces gráficas (escritorio, web, móvil)</li>
-                <li>Manejo de bases de datos relacionales</li>
-                <li>Uso de ASP.NET, JavaScript, Bootstrap, WCF, Entity Framework, Xamarin Forms</li>
-              </ul>
+            <div class="col">
+              <div class="card h-100 shadow-sm border-0">
+                <div class="card-body">
+                  <h5 class="card-title">Administrador de TI · Gobierno del Estado de Campeche</h5>
+                  <small class="text-muted">Junio 2013 – Junio 2022</small>
+                  <p class="card-text">Desarrollo de interfaces gráficas (escritorio, web, móvil). Manejo de bases de datos relacionales. Uso de ASP.NET, JavaScript, Bootstrap, WCF, Entity Framework, Xamarin Forms.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span class="badge bg-dark">ASP.NET</span>
+                    <span class="badge bg-light text-dark">JavaScript</span>
+                    <span class="badge bg-primary">Bootstrap</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="mb-5">
-          <h3 class="section-title">Formación</h3>
-          <p><strong>Ingeniero en Sistemas Computacionales</strong></p>
-          <p class="text-muted">2008 - 2012 · Universidad Autónoma de Campeche</p>
-          <ul>
-            <li>Certificaciones MTA (Microsoft): Web Development & Software Development Fundamentals (C#)</li>
-            <li>Diplomado en Innovación y Emprendimiento en la Industria 4.0 · Universidad Anáhuac Mayab</li>
-            <li>Inglés básico</li>
-          </ul>
+        <div class="mb-5 row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body">
+                <h3 class="section-title">Formación Académica</h3>
+                <h5 class="card-title">Universidad Autónoma de Campeche</h5>
+                <small class="text-muted">2008 - 2012</small>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Certificaciones MTA (Microsoft): Web Development & Software Development Fundamentals (C#)</li>
+                  <li class="list-group-item">Diplomado en Innovación y Emprendimiento en la Industria 4.0 · Universidad Anáhuac Mayab</li>
+                  <li class="list-group-item">Inglés básico</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body">
+                <h3 class="section-title">Aptitudes</h3>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Capacidad analítica</li>
+                  <li class="list-group-item">Trabajo en equipo</li>
+                  <li class="list-group-item">Planeación y organización</li>
+                  <li class="list-group-item">Adaptación a nuevas tecnologías</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div>
-          <h3 class="section-title">Aptitudes</h3>
-          <ul>
-            <li>Capacidad analítica</li>
-            <li>Trabajo en equipo</li>
-            <li>Planeación y organización</li>
-            <li>Adaptación a nuevas tecnologías</li>
-          </ul>
-        </div>
-
       </section>
     </div>
   </main>
